@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<link rel="stylesheet" href="./coreui/coreui-reboot.min.css" />
+		<link rel="stylesheet" href="./coreui/coreui.min.css" />
+		<link rel="stylesheet" href="./lightbox/simple-lightbox.css" />
+		<link rel="stylesheet" href="./style.css" />
+
+		<title>Polfy Melvor UserScripts</title>
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
+			<div class="container">
+				<a class="navbar-brand" href="#Home"
+					>Polfy Melvor UserScripts</a
+				>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-coreui-toggle="collapse"
+					data-coreui-target="#navbarNav"
+					aria-controls="navbarNav"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<div class="w-100 d-flex justify-content-end">
+						<ul class="navbar-nav">
+							<li class="nav-item">
+								<a class="nav-link" href="#Home">Home</a>
+							</li>
+							<li class="nav-item dropdown">
+								<a
+									class="nav-link dropdown-toggle"
+									href="#"
+									id="navbarDropdownMenuLink"
+									role="button"
+									data-coreui-toggle="dropdown"
+									aria-expanded="false"
+								>
+									UserScripts
+								</a>
+								<ul
+									class="dropdown-menu"
+									aria-labelledby="navbarDropdownMenuLink"
+									style="left: -50%"
+								></ul>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#Contact">Contact</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</nav>
+
+		<main>
+			<section id="Home" class="container">
+				<h2>Who I am ?</h2>
+				<p>
+					I'm a <a href="https://melvoridle.com" target="_blank">Melvor Idle</a> player who like
+					coding useful or fun scripts.
+				</p>
+
+				<h2>What I do ?</h2>
+				<p>
+					You will find below all the userscripts I've created and more information about them.
+					<br />
+					All these userscripts need <a href="https://www.tampermonkey.net/">Tampermonkey</a> to be
+					installed first.
+				</p>
+				<small
+					>All my userscripts has been added on the official
+					<a
+						href="https://wiki.melvoridle.com/w/Scripting_and_Extensions#List_of_Scripts_and_Extensions"
+						>Melvor Wiki</a
+					>.</small
+				>
+			</section>
+
+			<section id="Script" class="container">
+				<h2>UserScripts</h2>
+				<div class="scriptContent"></div>
+			</section>
+
+			<section id="Contact" class="container">
+				<h2>How to contact me</h2>
+				<p>
+					You can find me on the <a href="https://discord.gg/melvoridle">Melvor Discord</a> as
+					Polfy#6924 or on <a href="https://github.com/PierreYvesFlamand">Github</a>.
+				</p>
+			</section>
+		</main>
+
+		<footer class="footer">
+			<div class="container d-flex justify-content-between">
+				<div>
+					<span>&copy; 2022 Pierre-Yves Flamand</span>
+				</div>
+				<div>
+					<span>Powered by</span>
+					<a href="https://coreui.io" target="_blank">CoreUI</a>
+				</div>
+			</div>
+		</footer>
+
+		<script src="./coreui/coreui.bundle.min.js"></script>
+		<script src="./lightbox/simple-lightbox.min.js"></script>
+		<script src="./script.js"></script>
+	</body>
+</html>

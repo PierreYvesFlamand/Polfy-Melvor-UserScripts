@@ -1,0 +1,39 @@
+:root {
+	--cui-footer-bg: var(--cui-dark);
+	--cui-footer-color: var(--cui-light);
+	--cui-footer-border-width: 0px;
+}
+
+html {
+	scroll-behavior: smooth;
+	scroll-padding-top: 4rem;
+}
+
+section {
+	padding-top: 2rem;
+}
+
+h2 {
+	text-decoration: underline;
+}
+
+a[role="button"] {
+	color: var(--cui-light) !important;
+}
+
+.scriptContent {
+	display: flex;
+	flex-direction: column;
+}
+
+.scriptContent div {
+	width: max-content;
+}
+
+.scriptContent p {
+	margin: 1rem 0;
+}
+
+.gallery img {
+	max-height: 8.5rem;
+}
