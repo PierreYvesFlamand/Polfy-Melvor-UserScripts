@@ -6,6 +6,7 @@ class userScript {
         this.version = props.version;
         this.scriptID = props.scriptID;
         this.imageGalleryName = props.imageGalleryName;
+        this.todos = props.todos || [];
 
         this.stats = {
             creationDate: new Date("2000-01-01"),
@@ -48,6 +49,7 @@ const USERSCRIPTS = [
             "chestItemsDropRatesExample",
             "thievingNpcItemsDropRatesExample",
         ],
+        todos: ["Show thieving item and drop rate when not already acquired"],
     },
     {
         order: 1,
@@ -56,7 +58,8 @@ const USERSCRIPTS = [
             "Shows images of undiscovered items, monsters, pets and open wiki page on click",
         scriptID: "438058",
         version: "v1.0.1",
-        imageGalleryName: ["betterCompletionLogExample"],
+        imageGalleryName: ["betterCompletionLogExample", "betterCompletionLogTooltipExample"],
+        todos: ["Adding non completion log entries in a separate tab"],
     },
     {
         order: 2,
@@ -74,6 +77,7 @@ const USERSCRIPTS = [
         scriptID: "438680",
         version: "v1.0.1",
         imageGalleryName: ["oneClickFarmingExample"],
+        todos: ["Adding a customization menu to choose actions to perform"],
     },
 ];
 
@@ -131,6 +135,10 @@ USERSCRIPTS.forEach((USERSCRIPTData) => {
                     <a role="button" type="button" class="btn btn-dark me-2" href="https://github.com/PierreYvesFlamand/${userScriptData.getNameSlug()}" target="_blank">Source Code</a>
                     <a role="button" type="button" class="btn btn-danger me-2" href="https://github.com/PierreYvesFlamand/${userScriptData.getNameSlug()}/issues" target="_blank">Report issue</a>
                 </div>
+                <p class="mt-4">Todo :</p>
+                <ul>
+                    ${userScriptData.todos.reduce((html, todo) => html + `<li>${todo}</li>`, "")}
+                </ul>
             `;
             document.querySelector("#Script .scriptContent").appendChild(scriptDiv);
             new SimpleLightbox(`.gallery${userScriptData.scriptID} a`);
