@@ -9,10 +9,6 @@ html {
 	scroll-padding-top: 4rem;
 }
 
-section {
-	padding-top: 2rem;
-}
-
 h2 {
 	text-decoration: underline;
 }
@@ -21,17 +17,12 @@ a[role="button"] {
 	color: var(--cui-light) !important;
 }
 
-.scriptContent {
-	display: flex;
-	flex-direction: column;
+.scriptContent .callout {
+	max-width: max-content;
 }
 
-.scriptContent div {
-	width: max-content;
-}
-
-.scriptContent p {
-	margin: 1rem 0;
+.gallery {
+	gap: 0.5rem;
 }
 
 .gallery img {

@@ -55,7 +55,7 @@ USERSCRIPTS.forEach((USERSCRIPTData) => {
 			const scriptDiv = document.createElement("div");
 			scriptDiv.id = `${userScriptData.getNameSlug()}`;
 			scriptDiv.style.order = userScriptData.order;
-			scriptDiv.classList.add(...["callout", "callout-dark"]);
+			scriptDiv.classList.add(...["callout", "callout-dark", "w-100"]);
 			scriptDiv.innerHTML = `
                 <h3>${userScriptData.name} <span class="badge rounded-pill bg-dark">Melvor ${
 				userScriptData.version
@@ -67,27 +67,27 @@ USERSCRIPTS.forEach((USERSCRIPTData) => {
 				})} | ${userScriptData.stats.totalInstalls} total installs | ${
 				userScriptData.stats.averageInstallPerDay
 			} average installs per day</small>
-                <p>${userScriptData.description}</p>
-                <div class="gallery gallery${userScriptData.scriptID}">
+                <p class="mt-3">${userScriptData.description}</p>
+                <div id="gallery${userScriptData.scriptID}" class="gallery d-flex flex-wrap">
                     ${userScriptData.imageGalleryName.reduce(
 						(html, img, id) =>
 							html +
 							`<a class="me-2" href="${userScriptData.getImageUrl(
 								id
-							)}"><img src="${userScriptData.getImageUrl(id)}" alt="" title=""/></a>`,
+							)}"><img src="${userScriptData.getImageUrl(id)}" alt="${img}" title="${img}" class="w-100"/></a>`,
 						""
 					)}
                     
                 </div>
-                <div class="d-flex mt-3">
-                    <a role="button" type="button" class="btn btn-success me-2" href="https://greasyfork.org/en/scripts/${
+                <div class="d-flex flex-wrap mt-3">
+                    <a role="button" type="button" class="btn btn-success me-2 mb-2" href="https://greasyfork.org/en/scripts/${
 						userScriptData.scriptID
 					}" target="_blank">Install</a>
-                    <a role="button" type="button" class="btn btn-dark me-2" href="https://greasyfork.org/en/scripts/${
+                    <a role="button" type="button" class="btn btn-dark me-2 mb-2" href="https://greasyfork.org/en/scripts/${
 						userScriptData.scriptID
 					}/feedback" target="_blank">Comment</a>
-                    <a role="button" type="button" class="btn btn-dark me-2" href="https://github.com/PierreYvesFlamand/${userScriptData.getNameSlug()}" target="_blank">Source Code</a>
-                    <a role="button" type="button" class="btn btn-danger me-2" href="https://github.com/PierreYvesFlamand/${userScriptData.getNameSlug()}/issues" target="_blank">Report issue</a>
+                    <a role="button" type="button" class="btn btn-dark me-2 mb-2" href="https://github.com/PierreYvesFlamand/${userScriptData.getNameSlug()}" target="_blank">Source Code</a>
+                    <a role="button" type="button" class="btn btn-danger me-2 mb-2" href="https://github.com/PierreYvesFlamand/${userScriptData.getNameSlug()}/issues" target="_blank">Report issue</a>
                 </div>
                 ${
 					userScriptData.todos
@@ -99,6 +99,6 @@ USERSCRIPTS.forEach((USERSCRIPTData) => {
 				}
             `;
 			document.querySelector("#Script .scriptContent").appendChild(scriptDiv);
-			new SimpleLightbox(`.gallery${userScriptData.scriptID} a`);
+			new SimpleLightbox(`#gallery${userScriptData.scriptID} a`);
 		});
 });
