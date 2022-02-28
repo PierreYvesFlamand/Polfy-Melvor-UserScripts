@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name            Melvor Auto Loot
-// @version         1.5.0
+// @version         1.5.1
 // @license         MIT
 // @description     Add an Auto Loot toggle in combat - Last updated for Melvor v1.0.3 - Join https://discord.gg/hAdGcWc4nY for any questions or issues.
 // @author          Polfy
@@ -30,6 +30,12 @@ function AutoLoot() {
 
     var autoLootIsEnable = false;
 
+    MELVOR.combatLootContainer.bind("DOMNodeInserted", () => {
+        if (autoLootIsEnable) {
+            MELVOR.lootAll();
+        }
+    });
+
     // Adding the button
     const br = document.createElement("br");
     MELVOR.lootAllBtn.parentNode.appendChild(br);
@@ -55,10 +61,6 @@ function AutoLoot() {
 
         MELVOR.lootAll();
 
-        MELVOR.combatLootContainer.bind("DOMNodeInserted", () => {
-            MELVOR.lootAll();
-        });
-
         autoLootBtn.classList.remove("btn-danger");
         autoLootBtn.classList.add("btn-warning");
         autoLootBtn.innerText = "Auto Loot : Enabled";
@@ -66,10 +68,6 @@ function AutoLoot() {
 
     function disableAutoLoot() {
         // MELVOR.setAutoLooting(0);
-
-        combatManager.loot.add = (itemID, quantity, stack = false) => {
-            MELVOR.add(itemID, quantity, (stack = false));
-        };
 
         autoLootBtn.classList.remove("btn-warning");
         autoLootBtn.classList.add("btn-danger");
