@@ -1,15 +1,15 @@
 // ==UserScript==
 // @name            Melvor Items Drop Rates
-// @version         2.2.1
+// @version         2.3.0
 // @license         MIT
-// @description     Shows monsters, chests and already acquired thieving npcs items drop rates - Last updated for Melvor v1.0.2 - Contact Polfy#6924 for any questions or issues.
+// @description     Shows monsters, chests and already acquired thieving npcs items drop rates - Last updated for Melvor v1.0.3 - Join https://discord.gg/hAdGcWc4nY for any questions or issues.
 // @author          Polfy
 // @match           https://*.melvoridle.com/*
 // @exclude         https://wiki.melvoridle.com*
 // ==/UserScript==
 
 function ItemsDropRates() {
-    console.log("Melvor Items Drop Rates: Loaded (Contact info : Polfy#6924)");
+    ScriptLog();
 
     // Grab Melvor data
     const MELVOR = {
@@ -216,6 +216,24 @@ function ItemsDropRates() {
 
     function editSwalHtml({ toEdit, newContent }) {
         MELVOR.Swal.getHtmlContainer().innerHTML = MELVOR.Swal.getHtmlContainer().innerHTML.replace(toEdit, newContent);
+    }
+
+    // Polfy Melvor UserScripts Log
+    function ScriptLog() {
+        console.log("Melvor Items Drop Rates: Loaded [Contact info : https://discord.gg/hAdGcWc4nY | Polfy#6924]");
+
+        if (!document.querySelector("#PolfyUserScriptsDiscordLink")) {
+            let llink = document.createElement("li");
+            llink.id = "PolfyUserScriptsDiscordLink";
+            llink.classList.add("nav-main-item");
+            llink.innerHTML = `
+                <a class="nav-main-link nav-compact" href="https://discord.gg/hAdGcWc4nY" target="_blank">
+                    <img class="nav-img" src="https://cdn.melvor.net/core/v018/assets/media/main/discord.svg">
+                    <span class="nav-main-link-name page-nav-name-misc-15">Polfy UserScript Discord</span>
+                </a>
+            `;
+            document.querySelector(".nav-main-heading.page-nav-name-misc-12").after(llink);
+        }
     }
 }
 

@@ -1,4 +1,4 @@
-# Melvor Items Drop Rates ![Melvor Version](https://img.shields.io/static/v1?label=Melvor&message=v1.0.2&color=red&style=flat)
+# Melvor Items Drop Rates ![Melvor Version](https://img.shields.io/static/v1?label=Melvor&message=v1.0.3&color=green&style=flat)
 
 ## Installation
 

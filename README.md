@@ -76,7 +76,7 @@ You will be automatically prompt whenever an update of the userscript is pushed.
 
 ---
 
-### Melvor Items Drop Rates ![Melvor Version](https://img.shields.io/static/v1?label=Melvor&message=v1.0.2&color=red&style=flat)
+### Melvor Items Drop Rates ![Melvor Version](https://img.shields.io/static/v1?label=Melvor&message=v1.0.23&color=green&style=flat)
 
 #### Installation
 
