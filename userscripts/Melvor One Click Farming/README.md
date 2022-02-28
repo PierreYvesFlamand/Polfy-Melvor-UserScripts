@@ -1,4 +1,4 @@
-# Melvor One Click Farming ![Melvor Version](https://img.shields.io/static/v1?label=Melvor&message=v1.0.2&color=red&style=flat)
+# Melvor One Click Farming ![Melvor Version](https://img.shields.io/static/v1?label=Melvor&message=v1.0.3&color=green&style=flat)
 
 ## Installation
 

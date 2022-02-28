@@ -1,3 +1,5 @@
+_Last update : 2022/02/28_
+
 # [Polfy Melvor UserScripts](https://pierreyvesflamand.github.io/Polfy-Melvor-UserScripts/)
 
 ![Total Installs](https://img.shields.io/static/v1?label=1203&message=Total%20installs&color=green&style=flat)
@@ -59,7 +61,7 @@ You will be automatically prompt whenever an update of the userscript is pushed.
 
 ---
 
-### Melvor One Click Farming ![Melvor Version](https://img.shields.io/static/v1?label=Melvor&message=v1.0.2&color=red&style=flat)
+### Melvor One Click Farming ![Melvor Version](https://img.shields.io/static/v1?label=Melvor&message=v1.0.3&color=green&style=flat)
 
 #### Installation
 
