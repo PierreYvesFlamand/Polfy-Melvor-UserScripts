@@ -35,6 +35,11 @@ class userScript {
     }
 }
 
+const globalStats = {
+    totalInstalls: 0,
+    averageInstallPerDay: 0,
+};
+
 USERSCRIPTS.forEach((USERSCRIPTData) => {
     // Fetch data
     fetch(`https://greasyfork.org/en/scripts/${USERSCRIPTData.scriptID}/stats.json`)
@@ -94,5 +99,9 @@ USERSCRIPTS.forEach((USERSCRIPTData) => {
             `;
             document.querySelector("#Script .scriptContent").appendChild(scriptDiv);
             new SimpleLightbox(`#gallery${userScriptData.scriptID} a`);
+
+            // Increment stats
+            globalStats.totalInstalls += userScriptData.stats.totalInstalls;
+            globalStats.averageInstallPerDay += userScriptData.stats.averageInstallPerDay;
         });
 });

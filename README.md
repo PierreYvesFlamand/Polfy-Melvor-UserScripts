@@ -1,7 +1,7 @@
 # [Polfy Melvor UserScripts](https://pierreyvesflamand.github.io/Polfy-Melvor-UserScripts/)
 
-![Daily Installs](https://img.shields.io/static/v1?label=0&message=Total%20Installs&color=green&style=flat)
-![Daily Installs](https://img.shields.io/static/v1?label=0&message=Daily%20Installs&color=yellow&style=flat)
+![Daily Installs](https://img.shields.io/static/v1?label=1203&message=Total%20installs&color=green&style=flat)
+![Daily Installs](https://img.shields.io/static/v1?label=13&message=Daily%20average%20installs&color=yellow&style=flat)
 [![Daily Installs](https://img.shields.io/static/v1?label=&message=Discord&color=lightgray&style=flat&logo=discord)](https://discord.gg/hAdGcWc4nY)
 
 This is the repository of all my userscripts for [Melvor Idle](https://melvoridle.com/).
