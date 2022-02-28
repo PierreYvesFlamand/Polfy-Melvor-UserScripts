@@ -1,19 +1,19 @@
 // ==UserScript==
 // @name            Melvor Better Completion Log
-// @version         1.3.1
+// @version         1.4.0
 // @license         MIT
-// @description     Shows images of undiscovered items, monsters, pets and open wiki page on click - Last updated for Melvor v1.0.2 - Contact Polfy#6924 for any questions or issues.
+// @description     Shows images of undiscovered items, monsters, pets and open wiki page on click - Last updated for Melvor v1.0.3 - Join https://discord.gg/hAdGcWc4nY for any questions or issues.
 // @author          Polfy
 // @match           https://*.melvoridle.com/*
 // @exclude         https://wiki.melvoridle.com*
 // ==/UserScript==
 
 function BetterCompletionLog() {
-    console.log("Melvor Better Completion Log: Loaded (Contact info : Polfy#6924)");
+    ScriptLog();
 
     // Grab Melvor data
     const MELVOR = {
-	tippy: tippy,
+        tippy: tippy,
 
         setLang: setLang,
         wikiBaseUrl: "https://wiki.melvoridle.com/w/",
@@ -88,10 +88,10 @@ function BetterCompletionLog() {
             link.href = MELVOR.wikiBaseUrl + trans[nodeId];
             link.target = "_blank";
             link.style.width = "100%"; // Trick for svg image
-		
-	    MELVOR.tippy(link, {
-		content: "Click to open wiki page"
-	    });
+
+            MELVOR.tippy(link, {
+                content: "Click to open wiki page",
+            });
 
             img.remove();
             link.appendChild(newImg);
@@ -1535,6 +1535,24 @@ function BetterCompletionLog() {
             "Festive Chio",
         ],
     };
+
+    // Polfy Melvor UserScripts Log
+    function ScriptLog() {
+        console.log("Melvor Better Completion Log: Loaded [Contact info : https://discord.gg/hAdGcWc4nY | Polfy#6924]");
+
+        if (!document.querySelector("#PolfyUserScriptsDiscordLink")) {
+            let llink = document.createElement("li");
+            llink.id = "PolfyUserScriptsDiscordLink";
+            llink.classList.add("nav-main-item");
+            llink.innerHTML = `
+                <a class="nav-main-link nav-compact" href="https://discord.gg/hAdGcWc4nY" target="_blank">
+                    <img class="nav-img" src="https://cdn.melvor.net/core/v018/assets/media/main/discord.svg">
+                    <span class="nav-main-link-name page-nav-name-misc-15">Polfy UserScript Discord</span>
+                </a>
+            `;
+            document.querySelector(".nav-main-heading.page-nav-name-misc-12").after(llink);
+        }
+    }
 }
 
 // Injecting the script when possible
