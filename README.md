@@ -68,6 +68,27 @@ You will be automatically prompt whenever an update of the userscript is pushed.
 
     <img src="https://raw.githubusercontent.com/PierreYvesFlamand/Melvor-One-Click-Farming/main/oneClickFarmingExample.png" width="350" title="Example of the one click farming" alt="Example of the one click farming">
 
+### Melvor Items Drop Rates ![Melvor Version](https://img.shields.io/static/v1?label=Melvor&message=v1.0.2&color=red&style=flat)
+
+#### Installation
+
+-   Follow [How to use](#how-to-use)
+-   Get the UserScript on [Greasy Fork](https://greasyfork.org/en/scripts/435520)
+
+#### Usage
+
+-   Add items drop rates on monster drops list
+
+    <img src="https://raw.githubusercontent.com/PierreYvesFlamand/Melvor-Items-Drop-Rates/main/monsterItemsDropRatesExample.png" width="350" title="Example of monster items drop rates" alt="Example of monster items drop rates">
+
+-   Add items drop rates on chest drops list
+
+    <img src="https://raw.githubusercontent.com/PierreYvesFlamand/Melvor-Items-Drop-Rates/main/chestItemsDropRatesExample.png" width="350" title="Example of chest items drop rates" alt="Example of chest items drop rates">
+
+-   Add already acquired items drop rates on thieving npc drops list
+
+    <img src="https://raw.githubusercontent.com/PierreYvesFlamand/Melvor-Items-Drop-Rates/main/thievingNpcItemsDropRatesExample.png" width="350" title="Example of thieving npc items drop rates" alt="Example of thieving npc items drop rates">
+
 ## Contributing
 
 Join my [Discord](https://discord.gg/hAdGcWc4nY) to directly chat with me and give feedbacks or suggestion.
