@@ -10,11 +10,11 @@ This is the repository of all my userscripts for [Melvor Idle](https://melvoridl
 
 ## Table of content
 
--   [How to use](https://github.com/PierreYvesFlamand/Polfy-Melvor-UserScripts#how-to-use)
--   [UserScripts](https://github.com/PierreYvesFlamand/Polfy-Melvor-UserScripts#userscripts)
-    -   [Melvor Auto Loot](https://github.com/PierreYvesFlamand/Polfy-Melvor-UserScripts#melvor-auto-loot)
--   [Contributing](https://github.com/PierreYvesFlamand/Polfy-Melvor-UserScripts#contributing)
--   [Contact](https://github.com/PierreYvesFlamand/Polfy-Melvor-UserScripts#contact)
+-   [How to use](#how-to-use)
+-   [UserScripts](#userscripts)
+    -   [Melvor Auto Loot](#melvor-auto-loot)
+-   [Contributing](#contributing)
+-   [Contact](#contact)
 
 ## How to use
 
@@ -30,7 +30,8 @@ You will be automatically prompt whenever an update of the userscript is pushed.
 
 #### Installation
 
-Get the userscript on [Greasy Fork](https://greasyfork.org/en/scripts/435548).
+-   Follow [How to use](#how-to-use)
+-   Get the userscript on [Greasy Fork](https://greasyfork.org/en/scripts/435548)
 
 #### Usage
 
