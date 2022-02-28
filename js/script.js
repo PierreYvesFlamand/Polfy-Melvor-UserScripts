@@ -24,12 +24,8 @@ class userScript {
         this.stats.averageInstallPerDay = Math.round((totalInstalls / keys.length) * 10) / 10;
     }
 
-    getNameSlug() {
-        return this.name.split(" ").join("-");
-    }
-
     getImageUrl(id) {
-        return `https://raw.githubusercontent.com/PierreYvesFlamand/${this.getNameSlug()}/main/${this.imageGalleryName[id]}.png`;
+        return `https://raw.githubusercontent.com/PierreYvesFlamand/Polfy-Melvor-UserScripts/main/userscripts/${this.name}/${this.imageGalleryName[id]}.png`;
     }
 }
 
@@ -47,12 +43,12 @@ USERSCRIPTS.forEach((USERSCRIPTData) => {
 
             // Menu item
             const item = document.createElement("li");
-            item.innerHTML = `<a class="dropdown-item" href="#${userScriptData.getNameSlug()}">${userScriptData.name}</a>`;
+            item.innerHTML = `<a class="dropdown-item" href="#${userScriptData.name}">${userScriptData.name}</a>`;
             document.querySelector("#navbarNav .dropdown-menu").appendChild(item);
 
             // Page data
             const scriptDiv = document.createElement("div");
-            scriptDiv.id = `${userScriptData.getNameSlug()}`;
+            scriptDiv.id = `${userScriptData.name}`;
             scriptDiv.classList.add(...["callout", "callout-dark", "w-100"]);
             scriptDiv.innerHTML = `
                 <h3>${userScriptData.name} <span class="badge rounded-pill bg-dark">Melvor ${userScriptData.version}</span></h3>
@@ -82,8 +78,10 @@ USERSCRIPTS.forEach((USERSCRIPTData) => {
                     <a role="button" type="button" class="btn btn-dark me-2 mb-2" href="https://greasyfork.org/en/scripts/${
                         userScriptData.scriptID
                     }/feedback" target="_blank">Comment</a>
-                    <a role="button" type="button" class="btn btn-dark me-2 mb-2" href="https://github.com/PierreYvesFlamand/${userScriptData.getNameSlug()}" target="_blank">Source Code</a>
-                    <a role="button" type="button" class="btn btn-danger me-2 mb-2" href="https://github.com/PierreYvesFlamand/${userScriptData.getNameSlug()}/issues" target="_blank">Report issue</a>
+                    <a role="button" type="button" class="btn btn-dark me-2 mb-2" href="https://github.com/PierreYvesFlamand/Polfy-Melvor-UserScripts/tree/main/userscripts/${
+                        userScriptData.name
+                    }" target="_blank">Source Code</a>
+                    <a role="button" type="button" class="btn btn-danger me-2 mb-2" href="https://github.com/PierreYvesFlamand/Polfy-Melvor-UserScripts/issues" target="_blank">Report issue</a>
                 </div>
             `;
             document.querySelector("#Script .scriptContent").appendChild(scriptDiv);
