@@ -5,7 +5,6 @@ class userScript {
         this.version = props.version;
         this.scriptID = props.scriptID;
         this.imageGalleryName = props.imageGalleryName;
-        this.todos = props.todos || null;
 
         this.stats = {
             creationDate: new Date("2000-01-01"),
@@ -86,14 +85,6 @@ USERSCRIPTS.forEach((USERSCRIPTData) => {
                     <a role="button" type="button" class="btn btn-dark me-2 mb-2" href="https://github.com/PierreYvesFlamand/${userScriptData.getNameSlug()}" target="_blank">Source Code</a>
                     <a role="button" type="button" class="btn btn-danger me-2 mb-2" href="https://github.com/PierreYvesFlamand/${userScriptData.getNameSlug()}/issues" target="_blank">Report issue</a>
                 </div>
-                ${
-                    userScriptData.todos
-                        ? `<p class="mt-4">Todo :</p>
-                            <ul>
-                                ${userScriptData.todos.reduce((html, todo) => html + `<li>${todo}</li>`, "")}
-                            </ul>`
-                        : ""
-                }
             `;
             document.querySelector("#Script .scriptContent").appendChild(scriptDiv);
             new SimpleLightbox(`#gallery${userScriptData.scriptID} a`);

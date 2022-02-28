@@ -12,7 +12,6 @@ const USERSCRIPTS = [
         scriptID: "435520",
         version: "v1.0.2",
         imageGalleryName: ["monsterItemsDropRatesExample", "chestItemsDropRatesExample", "thievingNpcItemsDropRatesExample"],
-        todos: ["Show thieving item and drop rate when not already acquired"],
     },
     {
         name: "Melvor Better Completion Log",
@@ -20,7 +19,6 @@ const USERSCRIPTS = [
         scriptID: "438058",
         version: "v1.0.2",
         imageGalleryName: ["betterCompletionLogExample", "betterCompletionLogTooltipExample"],
-        todos: ["Adding non completion log entries in a separate tab"],
     },
     {
         name: "Melvor One Click Farming",
@@ -28,6 +26,5 @@ const USERSCRIPTS = [
         scriptID: "438680",
         version: "v1.0.2",
         imageGalleryName: ["oneClickFarmingExample"],
-        todos: ["Adding a customization menu to choose actions to perform"],
     },
 ];
