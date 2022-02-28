@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name            Melvor Auto Loot
-// @version         1.4.2
+// @version         1.4.3
 // @license         MIT
 // @description     Add an Auto Loot toggle in combat - Last updated for Melvor v1.0.2 - Contact Polfy#6924 for any questions or issues.
 // @author          Polfy
@@ -9,7 +9,7 @@
 // ==/UserScript==
 
 function AutoLoot() {
-    console.log("Melvor Auto Loot: Loaded (Contact info : Polfy#6924)");
+    console.log("Melvor Auto Loot: Loaded [Contact info : https://discord.gg/hAdGcWc4nY | Polfy#6924]");
 
     // Grab Melvor data
     const MELVOR = {
