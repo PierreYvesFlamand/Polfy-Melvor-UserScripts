@@ -1,12 +1,10 @@
 class userScript {
     constructor(props, stats) {
-        this.order = props.order;
         this.name = props.name;
         this.description = props.description;
         this.version = props.version;
         this.scriptID = props.scriptID;
         this.imageGalleryName = props.imageGalleryName;
-        this.todos = props.todos || null;
 
         this.stats = {
             creationDate: new Date("2000-01-01"),
@@ -35,6 +33,11 @@ class userScript {
     }
 }
 
+const globalStats = {
+    totalInstalls: 0,
+    averageInstallPerDay: 0,
+};
+
 USERSCRIPTS.forEach((USERSCRIPTData) => {
     // Fetch data
     fetch(`https://greasyfork.org/en/scripts/${USERSCRIPTData.scriptID}/stats.json`)
@@ -50,7 +53,6 @@ USERSCRIPTS.forEach((USERSCRIPTData) => {
             // Page data
             const scriptDiv = document.createElement("div");
             scriptDiv.id = `${userScriptData.getNameSlug()}`;
-            scriptDiv.style.order = userScriptData.order;
             scriptDiv.classList.add(...["callout", "callout-dark", "w-100"]);
             scriptDiv.innerHTML = `
                 <h3>${userScriptData.name} <span class="badge rounded-pill bg-dark">Melvor ${userScriptData.version}</span></h3>
@@ -83,16 +85,12 @@ USERSCRIPTS.forEach((USERSCRIPTData) => {
                     <a role="button" type="button" class="btn btn-dark me-2 mb-2" href="https://github.com/PierreYvesFlamand/${userScriptData.getNameSlug()}" target="_blank">Source Code</a>
                     <a role="button" type="button" class="btn btn-danger me-2 mb-2" href="https://github.com/PierreYvesFlamand/${userScriptData.getNameSlug()}/issues" target="_blank">Report issue</a>
                 </div>
-                ${
-                    userScriptData.todos
-                        ? `<p class="mt-4">Todo :</p>
-                            <ul>
-                                ${userScriptData.todos.reduce((html, todo) => html + `<li>${todo}</li>`, "")}
-                            </ul>`
-                        : ""
-                }
             `;
             document.querySelector("#Script .scriptContent").appendChild(scriptDiv);
             new SimpleLightbox(`#gallery${userScriptData.scriptID} a`);
+
+            // Increment stats
+            globalStats.totalInstalls += userScriptData.stats.totalInstalls;
+            globalStats.averageInstallPerDay += userScriptData.stats.averageInstallPerDay;
         });
 });
