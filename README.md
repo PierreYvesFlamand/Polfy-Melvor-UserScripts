@@ -27,7 +27,7 @@ You will be automatically prompt whenever an update of the userscript is pushed.
 
 ## UserScripts
 
-### Melvor Auto Loot ![Melvor Version](https://img.shields.io/static/v1?label=Melvor&message=v1.0.2&color=red&style=flat)
+### Melvor Auto Loot ![Melvor Version](https://img.shields.io/static/v1?label=Melvor&message=v1.0.3&color=green&style=flat)
 
 #### Installation
 
