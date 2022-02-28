@@ -1,10 +1,12 @@
-# Polfy Melvor UserScripts
+# [Polfy Melvor UserScripts](https://pierreyvesflamand.github.io/Polfy-Melvor-UserScripts/)
 
 ![Daily Installs](https://img.shields.io/static/v1?label=0&message=Total%20Installs&color=green&style=flat)
 ![Daily Installs](https://img.shields.io/static/v1?label=0&message=Daily%20Installs&color=yellow&style=flat)
-[![Daily Installs](https://img.shields.io/static/v1?label=&message=Discord&color=lightgray&style=flat&logo=discord)](https://www.discord.com/)
+[![Daily Installs](https://img.shields.io/static/v1?label=&message=Discord&color=lightgray&style=flat&logo=discord)](https://discord.gg/hAdGcWc4nY)
 
 This is the repository of all my userscripts for [Melvor Idle](https://melvoridle.com/).
+
+▶ [Check the website version](https://pierreyvesflamand.github.io/Polfy-Melvor-UserScripts/)
 
 ## Table of content
 
@@ -22,13 +24,13 @@ You will be automatically prompt whenever an update of the userscript is pushed.
 
 ## Contributing
 
-Join my [Discord]() to directly chat with me and give feedbacks or suggestion.
+Join my [Discord](https://discord.gg/hAdGcWc4nY) to directly chat with me and give feedbacks or suggestion.
 
-If you find any issues, please let me now on [Discord]() or directly in the [Issues tab](https://github.com/PierreYvesFlamand/Polfy-Melvor-UserScripts/issues) of Github.
+If you find any issues, please let me now on [Discord](https://discord.gg/hAdGcWc4nY) or directly in the [Issues tab](https://github.com/PierreYvesFlamand/Polfy-Melvor-UserScripts/issues) of Github.
 
 ## Contact
 
 You can find me on several places as Polfy#6924 :
 
--   My [Discord]()
--   The [Melvor Idle Discord]()
+-   My [Discord](https://discord.gg/hAdGcWc4nY)
+-   The [Melvor Idle Discord](https://discord.gg/melvoridle)
