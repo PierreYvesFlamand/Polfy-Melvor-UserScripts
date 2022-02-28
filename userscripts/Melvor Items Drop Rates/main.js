@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name            Melvor Items Drop Rates
-// @version         2.3.0
+// @version         2.3.1
 // @license         MIT
 // @description     Shows monsters, chests and already acquired thieving npcs items drop rates - Last updated for Melvor v1.0.3 - Join https://discord.gg/hAdGcWc4nY for any questions or issues.
 // @author          Polfy
