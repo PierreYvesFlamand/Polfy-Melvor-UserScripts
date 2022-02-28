@@ -32,7 +32,7 @@ You will be automatically prompt whenever an update of the userscript is pushed.
 #### Installation
 
 -   Follow [How to use](#how-to-use)
--   Get the userscript on [Greasy Fork](https://greasyfork.org/en/scripts/435548)
+-   Get the UserScript on [Greasy Fork](https://greasyfork.org/en/scripts/435548)
 
 #### Usage
 
@@ -54,6 +54,19 @@ You will be automatically prompt whenever an update of the userscript is pushed.
     <img src="https://raw.githubusercontent.com/PierreYvesFlamand/Melvor-Better-Completion-Log/main/betterCompletionLogExample.png" width="350" title="Better completion log example" alt="Better completion log example">
     <br />
     <img src="https://raw.githubusercontent.com/PierreYvesFlamand/Melvor-Better-Completion-Log/main/betterCompletionLogTooltipExample.png" width="350" title="Better completion log tooltip example" alt="Better completion log tooltip example">
+
+### Melvor One Click Farming ![Melvor Version](https://img.shields.io/static/v1?label=Melvor&message=v1.0.2&color=red&style=flat)
+
+## Installation
+
+-   Follow [How to use](#how-to-use)
+-   Get the UserScript on [Greasy Fork](https://greasyfork.org/en/scripts/438680)
+
+#### Usage
+
+-   Shows images of undiscovered items, monsters, pets and open wiki page on click
+
+    <img src="https://raw.githubusercontent.com/PierreYvesFlamand/Melvor-One-Click-Farming/main/oneClickFarmingExample.png" width="350" title="Example of the one click farming" alt="Example of the one click farming">
 
 ## Contributing
 

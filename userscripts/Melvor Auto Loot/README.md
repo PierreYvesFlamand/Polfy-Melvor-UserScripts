@@ -3,7 +3,7 @@
 ## Installation
 
 -   Follow [How to use](https://github.com/PierreYvesFlamand/Polfy-Melvor-UserScripts#how-to-use)
--   Get the userscript on [Greasy Fork](https://greasyfork.org/en/scripts/435548)
+-   Get the UserScript on [Greasy Fork](https://greasyfork.org/en/scripts/435548)
 
 ## Usage
 
