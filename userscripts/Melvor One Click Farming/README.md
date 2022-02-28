@@ -9,4 +9,4 @@
 
 -   Shows images of undiscovered items, monsters, pets and open wiki page on click
 
-    <img src="https://raw.githubusercontent.com/PierreYvesFlamand/Melvor-One-Click-Farming/main/oneClickFarmingExample.png" width="350" title="Example of the one click farming" alt="Example of the one click farming">
+    <img src="https://raw.githubusercontent.com/PierreYvesFlamand/Polfy-Melvor-UserScripts/main/userscripts/Melvor One Click Farming/oneClickFarmingExample.png" width="350" title="Example of the one click farming" alt="Example of the one click farming">

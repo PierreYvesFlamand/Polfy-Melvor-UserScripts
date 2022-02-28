@@ -9,6 +9,6 @@
 
 -   Shows images of undiscovered items, monsters, pets and open wiki page on click
 
-    <img src="https://raw.githubusercontent.com/PierreYvesFlamand/Melvor-Better-Completion-Log/main/betterCompletionLogExample.png" width="350" title="Better completion log example" alt="Better completion log example">
+    <img src="https://raw.githubusercontent.com/PierreYvesFlamand/Polfy-Melvor-UserScripts/main/userscripts/Melvor Better Completion Log/betterCompletionLogExample.png" width="350" title="Better completion log example" alt="Better completion log example">
     <br />
-    <img src="https://raw.githubusercontent.com/PierreYvesFlamand/Melvor-Better-Completion-Log/main/betterCompletionLogTooltipExample.png" width="350" title="Better completion log tooltip example" alt="Better completion log tooltip example">
+    <img src="https://raw.githubusercontent.com/PierreYvesFlamand/Polfy-Melvor-UserScripts/main/userscripts/Melvor Better Completion Log/betterCompletionLogTooltipExample.png" width="350" title="Better completion log tooltip example" alt="Better completion log tooltip example">

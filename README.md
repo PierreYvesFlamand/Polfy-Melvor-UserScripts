@@ -40,7 +40,7 @@ You will be automatically prompt whenever an update of the userscript is pushed.
 
 -   Click the `Auto Loot` button to toggle auto looting
 
-    <img src="https://raw.githubusercontent.com/PierreYvesFlamand/Melvor-Auto-Loot/main/autoLootExample.png" width="350" title="Example of monster items drop rates" alt="Example of monster items drop rates">
+    <img src="https://raw.githubusercontent.com/PierreYvesFlamand/Polfy-Melvor-UserScripts/main/userscripts/Melvor Auto Loot/autoLootExample.png" width="350" title="Example of monster items drop rates" alt="Example of monster items drop rates">
 
 ---
 
@@ -55,9 +55,9 @@ You will be automatically prompt whenever an update of the userscript is pushed.
 
 -   Shows images of undiscovered items, monsters, pets and open wiki page on click
 
-    <img src="https://raw.githubusercontent.com/PierreYvesFlamand/Melvor-Better-Completion-Log/main/betterCompletionLogExample.png" width="350" title="Better completion log example" alt="Better completion log example">
+    <img src="https://raw.githubusercontent.com/PierreYvesFlamand/Polfy-Melvor-UserScripts/main/userscripts/Melvor Better Completion Log/betterCompletionLogExample.png" width="350" title="Better completion log example" alt="Better completion log example">
     <br />
-    <img src="https://raw.githubusercontent.com/PierreYvesFlamand/Melvor-Better-Completion-Log/main/betterCompletionLogTooltipExample.png" width="350" title="Better completion log tooltip example" alt="Better completion log tooltip example">
+    <img src="https://raw.githubusercontent.com/PierreYvesFlamand/Polfy-Melvor-UserScripts/main/userscripts/Melvor Better Completion Log/betterCompletionLogTooltipExample.png" width="350" title="Better completion log tooltip example" alt="Better completion log tooltip example">
 
 ---
 
@@ -72,7 +72,7 @@ You will be automatically prompt whenever an update of the userscript is pushed.
 
 -   Shows images of undiscovered items, monsters, pets and open wiki page on click
 
-    <img src="https://raw.githubusercontent.com/PierreYvesFlamand/Melvor-One-Click-Farming/main/oneClickFarmingExample.png" width="350" title="Example of the one click farming" alt="Example of the one click farming">
+    <img src="https://raw.githubusercontent.com/PierreYvesFlamand/Polfy-Melvor-UserScripts/main/userscripts/Melvor One Click Farming/oneClickFarmingExample.png" width="350" title="Example of the one click farming" alt="Example of the one click farming">
 
 ---
 
@@ -87,15 +87,15 @@ You will be automatically prompt whenever an update of the userscript is pushed.
 
 -   Add items drop rates on monster drops list
 
-    <img src="https://raw.githubusercontent.com/PierreYvesFlamand/Melvor-Items-Drop-Rates/main/monsterItemsDropRatesExample.png" width="350" title="Example of monster items drop rates" alt="Example of monster items drop rates">
+    <img src="https://raw.githubusercontent.com/PierreYvesFlamand/Polfy-Melvor-UserScripts/main/userscripts/Melvor Items Drop Rates/monsterItemsDropRatesExample.png" width="350" title="Example of monster items drop rates" alt="Example of monster items drop rates">
 
 -   Add items drop rates on chest drops list
 
-    <img src="https://raw.githubusercontent.com/PierreYvesFlamand/Melvor-Items-Drop-Rates/main/chestItemsDropRatesExample.png" width="350" title="Example of chest items drop rates" alt="Example of chest items drop rates">
+    <img src="https://raw.githubusercontent.com/PierreYvesFlamand/Polfy-Melvor-UserScripts/main/userscripts/Melvor Items Drop Rates/chestItemsDropRatesExample.png" width="350" title="Example of chest items drop rates" alt="Example of chest items drop rates">
 
 -   Add already acquired items drop rates on thieving npc drops list
 
-    <img src="https://raw.githubusercontent.com/PierreYvesFlamand/Melvor-Items-Drop-Rates/main/thievingNpcItemsDropRatesExample.png" width="350" title="Example of thieving npc items drop rates" alt="Example of thieving npc items drop rates">
+    <img src="https://raw.githubusercontent.com/PierreYvesFlamand/Polfy-Melvor-UserScripts/main/userscripts/Melvor Items Drop Rates/thievingNpcItemsDropRatesExample.png" width="350" title="Example of thieving npc items drop rates" alt="Example of thieving npc items drop rates">
 
 ## Contributing
 

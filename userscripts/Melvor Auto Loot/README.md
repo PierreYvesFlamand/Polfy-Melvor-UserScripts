@@ -9,4 +9,4 @@
 
 -   Click the `Auto Loot` button to toggle auto looting
 
-    <img src="https://raw.githubusercontent.com/PierreYvesFlamand/Melvor-Auto-Loot/main/autoLootExample.png" width="350" title="Example of monster items drop rates" alt="Example of monster items drop rates">
+    <img src="https://raw.githubusercontent.com/PierreYvesFlamand/Polfy-Melvor-UserScripts/main/userscripts/Melvor Auto Loot/autoLootExample.png" width="350" title="Example of monster items drop rates" alt="Example of monster items drop rates">

@@ -9,12 +9,12 @@
 
 -   Add items drop rates on monster drops list
 
-    <img src="https://raw.githubusercontent.com/PierreYvesFlamand/Melvor-Items-Drop-Rates/main/monsterItemsDropRatesExample.png" width="350" title="Example of monster items drop rates" alt="Example of monster items drop rates">
+    <img src="https://raw.githubusercontent.com/PierreYvesFlamand/Polfy-Melvor-UserScripts/main/userscripts/Melvor Items Drop Rates/monsterItemsDropRatesExample.png" width="350" title="Example of monster items drop rates" alt="Example of monster items drop rates">
 
 -   Add items drop rates on chest drops list
 
-    <img src="https://raw.githubusercontent.com/PierreYvesFlamand/Melvor-Items-Drop-Rates/main/chestItemsDropRatesExample.png" width="350" title="Example of chest items drop rates" alt="Example of chest items drop rates">
+    <img src="https://raw.githubusercontent.com/PierreYvesFlamand/Polfy-Melvor-UserScripts/main/userscripts/Melvor Items Drop Rates/chestItemsDropRatesExample.png" width="350" title="Example of chest items drop rates" alt="Example of chest items drop rates">
 
 -   Add already acquired items drop rates on thieving npc drops list
 
-    <img src="https://raw.githubusercontent.com/PierreYvesFlamand/Melvor-Items-Drop-Rates/main/thievingNpcItemsDropRatesExample.png" width="350" title="Example of thieving npc items drop rates" alt="Example of thieving npc items drop rates">
+    <img src="https://raw.githubusercontent.com/PierreYvesFlamand/Polfy-Melvor-UserScripts/main/userscripts/Melvor Items Drop Rates/thievingNpcItemsDropRatesExample.png" width="350" title="Example of thieving npc items drop rates" alt="Example of thieving npc items drop rates">
