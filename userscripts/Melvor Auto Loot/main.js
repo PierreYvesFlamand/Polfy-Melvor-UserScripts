@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name            Melvor Auto Loot
-// @version         1.5.1
+// @version         1.5.2
 // @license         MIT
 // @description     Add an Auto Loot toggle in combat - Last updated for Melvor v1.0.3 - Join https://discord.gg/hAdGcWc4nY for any questions or issues.
 // @author          Polfy
