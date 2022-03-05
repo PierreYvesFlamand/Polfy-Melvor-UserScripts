@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name            Melvor Items Drop Rates
-// @version         2.3.2
+// @version         2.3.3
 // @license         MIT
 // @description     Shows monsters, chests and already acquired thieving npcs items drop rates - Last updated for Melvor v1.0.3 - Join https://discord.gg/hAdGcWc4nY for any questions or issues.
 // @author          Polfy
@@ -82,6 +82,8 @@ function ItemsDropRates() {
     // Add monsters items drop rates when opening the monster Swal
     function initShowMonstersDropRates() {
         MELVOR.dropsBtns.forEach((btn) => {
+            if (btn.id === "combat-btn-modifiers-raid") return;
+
             if (btn.id === "combat-btn-monster-drops") {
                 btn.addEventListener("click", () => {
                     if (MELVOR.combatManager.isInCombat) {
