@@ -2,7 +2,7 @@
 // @name            Melvor Better Completion Log
 // @version         1.4.0
 // @license         MIT
-// @description     Shows images of undiscovered items, monsters, pets and open wiki page on click - Last updated for Melvor v1.0.3 - Join https://discord.gg/hAdGcWc4nY for any questions or issues.
+// @description     Shows images of undiscovered items, monsters, pets and open wiki page on click
 // @author          Polfy
 // @match           https://*.melvoridle.com/*
 // @exclude         https://wiki.melvoridle.com*
