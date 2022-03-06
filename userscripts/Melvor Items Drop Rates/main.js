@@ -2,7 +2,7 @@
 // @name            Melvor Items Drop Rates
 // @version         2.3.3
 // @license         MIT
-// @description     Shows monsters, chests and already acquired thieving npcs items drop rates - Last updated for Melvor v1.0.3 - Join https://discord.gg/hAdGcWc4nY for any questions or issues.
+// @description     Shows monsters, chests and already acquired thieving npcs items drop rates
 // @author          Polfy
 // @match           https://*.melvoridle.com/*
 // @exclude         https://wiki.melvoridle.com*
