@@ -36,7 +36,7 @@ const globalStats = {
 
 USERSCRIPTS.forEach((USERSCRIPTData) => {
     // Fetch data
-    fetch(`https://greasyfork.org/en/scripts/${USERSCRIPTData.scriptID}/stats.json`)
+    fetch(`https://greasyfork.org/scripts/${USERSCRIPTData.scriptID}/stats.json`)
         .then((res) => res.json())
         .then((stats) => {
             const userScriptData = new userScript(USERSCRIPTData, stats);
@@ -72,10 +72,10 @@ USERSCRIPTS.forEach((USERSCRIPTData) => {
                     
                 </div>
                 <div class="d-flex flex-wrap mt-3">
-                    <a role="button" type="button" class="btn btn-success me-2 mb-2" href="https://greasyfork.org/en/scripts/${
+                    <a role="button" type="button" class="btn btn-success me-2 mb-2" href="https://greasyfork.org/scripts/${
                         userScriptData.scriptID
                     }" target="_blank">Install</a>
-                    <a role="button" type="button" class="btn btn-dark me-2 mb-2" href="https://greasyfork.org/en/scripts/${
+                    <a role="button" type="button" class="btn btn-dark me-2 mb-2" href="https://greasyfork.org/scripts/${
                         userScriptData.scriptID
                     }/feedback" target="_blank">Comment</a>
                     <a role="button" type="button" class="btn btn-dark me-2 mb-2" href="https://github.com/PierreYvesFlamand/Polfy-Melvor-UserScripts/tree/main/userscripts/${

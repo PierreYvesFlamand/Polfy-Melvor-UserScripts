@@ -34,7 +34,7 @@ You will be automatically prompt whenever an update of the userscript is pushed.
 #### Installation
 
 -   Follow [How to use](#how-to-use)
--   Get the UserScript on [Greasy Fork](https://greasyfork.org/en/scripts/435548)
+-   Get the UserScript on [Greasy Fork](https://greasyfork.org/scripts/435548)
 
 #### Usage
 
@@ -49,7 +49,7 @@ You will be automatically prompt whenever an update of the userscript is pushed.
 #### Installation
 
 -   Follow [How to use](#how-to-use)
--   Get the UserScript on [Greasy Fork](https://greasyfork.org/en/scripts/438058)
+-   Get the UserScript on [Greasy Fork](https://greasyfork.org/scripts/438058)
 
 #### Usage
 
@@ -66,7 +66,7 @@ You will be automatically prompt whenever an update of the userscript is pushed.
 #### Installation
 
 -   Follow [How to use](#how-to-use)
--   Get the UserScript on [Greasy Fork](https://greasyfork.org/en/scripts/438680)
+-   Get the UserScript on [Greasy Fork](https://greasyfork.org/scripts/438680)
 
 #### Usage
 
@@ -81,7 +81,7 @@ You will be automatically prompt whenever an update of the userscript is pushed.
 #### Installation
 
 -   Follow [How to use](#how-to-use)
--   Get the UserScript on [Greasy Fork](https://greasyfork.org/en/scripts/435520)
+-   Get the UserScript on [Greasy Fork](https://greasyfork.org/scripts/435520)
 
 #### Usage
 
