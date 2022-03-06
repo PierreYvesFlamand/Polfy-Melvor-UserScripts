@@ -2,7 +2,7 @@
 // @name            Melvor One Click Farming
 // @version         1.1.0
 // @license         MIT
-// @description     Harvest All, Apply Weird Gloop to all Plots and Plant All Selected Crops on every farming areas in one click - Last updated for Melvor v1.0.3 - Join https://discord.gg/hAdGcWc4nY for any questions or issues.
+// @description     Harvest All, Apply Weird Gloop to all Plots and Plant All Selected Crops on every farming areas in one click
 // @author          Polfy
 // @match           https://*.melvoridle.com/*
 // @exclude         https://wiki.melvoridle.com*
