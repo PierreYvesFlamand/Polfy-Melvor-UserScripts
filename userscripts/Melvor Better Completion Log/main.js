@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name            Melvor Better Completion Log
-// @version         1.4.0
+// @version         1.4.1
 // @license         MIT
 // @description     Shows images of undiscovered items, monsters, pets and open wiki page on click
 // @author          Polfy
